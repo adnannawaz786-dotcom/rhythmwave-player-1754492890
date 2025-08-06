@@ -165,7 +165,7 @@ export default function Home() {
               className="glassmorphism p-4 rounded-lg flex items-center space-x-4 hover:bg-white/20 transition-colors cursor-pointer"
               onClick={() => playTrack(track)}
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-500 rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-500 rounded-lg flex items-center justify-center">Adnan 
                 {isPlaying && currentTrack?.id === track.id ? (
                   <Pause className="w-5 h-5 text-white" />
                 ) : (
